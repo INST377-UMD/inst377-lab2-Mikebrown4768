@@ -1,0 +1,44 @@
+<html>
+<head>
+    <title>INST377 - Lab 2 Form</title>
+    <style>
+        body {
+            background-color: lightblue;
+            font-family: Arial, sans-serif;
+        }
+        .form-container {
+            margin: 20px;
+        }
+        label {
+            font-size: 18px;
+        }
+        input[type="text"] {
+            margin: 10px 0;
+            padding: 5px;
+            font-size: 16px;
+        }
+        .submit-button {
+            background-color: darkblue;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        .submit-button:hover {
+            background-color: navy;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to the Form Page</h1>
+    <div class="form-container">
+        <form action="377lab2Page2.html" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <br>
+            <input type="submit" class="submit-button" value="Submit">
+        </form>
+    </div>
+</body>
+</html>
